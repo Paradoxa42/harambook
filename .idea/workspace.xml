@@ -21,19 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DashBoardBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+            <state relative-caret-position="547">
+              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
               <folding>
-                <element signature="e#4481#4516#0#PHP" expanded="true" />
-                <marker date="1484314081098" expanded="true" signature="1436:1485" ph="SELECT p FRO... UserBundle" />
-                <marker date="1484314081098" expanded="true" signature="1436:1486" ph="SELECT p FRO... UserBundle" />
-                <marker date="1484314081098" expanded="true" signature="1436:1511" ph="SELECT p FRO... UserBundle" />
-                <marker date="1484314081098" expanded="true" signature="1436:1512" ph="SELECT p FRO... UserBundle" />
-                <marker date="1484314081098" expanded="true" signature="1436:1514" ph="SELECT p FRO... UserBundle" />
-                <marker date="1484314081098" expanded="true" signature="1436:1527" ph="SELECT p FRO... UserBundle" />
+                <element signature="e#4504#4525#1#PHP" expanded="true" />
+                <element signature="e#4582#4617#0#PHP" expanded="true" />
+                <marker date="1484316277265" expanded="true" signature="1436:1485" ph="SELECT p FRO... UserBundle" />
+                <marker date="1484316277265" expanded="true" signature="1436:1486" ph="SELECT p FRO... UserBundle" />
+                <marker date="1484316277265" expanded="true" signature="1436:1511" ph="SELECT p FRO... UserBundle" />
+                <marker date="1484316277265" expanded="true" signature="1436:1512" ph="SELECT p FRO... UserBundle" />
+                <marker date="1484316277265" expanded="true" signature="1436:1514" ph="SELECT p FRO... UserBundle" />
+                <marker date="1484316277265" expanded="true" signature="1436:1527" ph="SELECT p FRO... UserBundle" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileUploader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UserBundle/serviceController/fileUploader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="36" />
+              <folding>
+                <element signature="e#129#184#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +92,8 @@
       <file leaf-file-name="RegistrationController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserBundle/Controller/RegistrationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="61" column="88" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="88" />
+            <state relative-caret-position="391">
+              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -101,12 +114,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DashBoardBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+              <folding>
+                <element signature="e#12#37#0#Twig" expanded="false" />
+                <element signature="e#1434#1458#0#Twig" expanded="false" />
+                <element signature="e#1665#1688#0#Twig" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,21 +208,21 @@
         <option value="$PROJECT_DIR$/src/DashBoardBundle/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/DashBoardBundle/Entity/Search.php" />
-        <option value="$PROJECT_DIR$/src/UserBundle/serviceController/fileUploader.php" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/src/UserBundle/Entity/profilPic.php" />
         <option value="$PROJECT_DIR$/src/UserBundle/Form/UserType.php" />
         <option value="$PROJECT_DIR$/src/DashBoardBundle/Resources/views/search.html.twig" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Controller/RegistrationController.php" />
         <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/register_content.html.twig" />
         <option value="$PROJECT_DIR$/src/UserBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/DashBoardBundle/Resources/views/update.html.twig" />
         <option value="$PROJECT_DIR$/src/DashBoardBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/head.html.twig" />
-        <option value="$PROJECT_DIR$/src/DashBoardBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/UserBundle/Form/UserUpdateType.php" />
         <option value="$PROJECT_DIR$/src/DashBoardBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Controller/RegistrationController.php" />
+        <option value="$PROJECT_DIR$/src/UserBundle/serviceController/fileUploader.php" />
+        <option value="$PROJECT_DIR$/src/DashBoardBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -275,46 +292,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Harambebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Harambebook" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="profilpics" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Harambebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Harambebook" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -334,6 +311,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Harambebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Harambebook" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serviceController" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,12 +449,12 @@
       <workItem from="1484229203323" duration="12606000" />
       <workItem from="1484247810822" duration="20805000" />
       <workItem from="1484300388540" duration="1244000" />
-      <workItem from="1484303678543" duration="11264000" />
+      <workItem from="1484303678543" duration="12529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59368000" />
+    <option name="totallyTimeSpent" value="60633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -738,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/serviceController/fileUploader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserBundle/Form/UserType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -784,14 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="61" column="88" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -838,6 +821,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DashBoardBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="e#12#37#0#Twig" expanded="false" />
+            <element signature="e#1434#1458#0#Twig" expanded="false" />
+            <element signature="e#1665#1688#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UserBundle/Form/UserUpdateType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -848,27 +843,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DashBoardBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Controller/RegistrationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        <state relative-caret-position="391">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/serviceController/fileUploader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="36" />
           <folding>
-            <element signature="e#4481#4516#0#PHP" expanded="true" />
-            <marker date="1484314081098" expanded="true" signature="1436:1485" ph="SELECT p FRO... UserBundle" />
-            <marker date="1484314081098" expanded="true" signature="1436:1486" ph="SELECT p FRO... UserBundle" />
-            <marker date="1484314081098" expanded="true" signature="1436:1511" ph="SELECT p FRO... UserBundle" />
-            <marker date="1484314081098" expanded="true" signature="1436:1512" ph="SELECT p FRO... UserBundle" />
-            <marker date="1484314081098" expanded="true" signature="1436:1514" ph="SELECT p FRO... UserBundle" />
-            <marker date="1484314081098" expanded="true" signature="1436:1527" ph="SELECT p FRO... UserBundle" />
+            <element signature="e#129#184#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DashBoardBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/DashBoardBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="547">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+          <folding>
+            <element signature="e#4504#4525#1#PHP" expanded="true" />
+            <element signature="e#4582#4617#0#PHP" expanded="true" />
+            <marker date="1484316277265" expanded="true" signature="1436:1485" ph="SELECT p FRO... UserBundle" />
+            <marker date="1484316277265" expanded="true" signature="1436:1486" ph="SELECT p FRO... UserBundle" />
+            <marker date="1484316277265" expanded="true" signature="1436:1511" ph="SELECT p FRO... UserBundle" />
+            <marker date="1484316277265" expanded="true" signature="1436:1512" ph="SELECT p FRO... UserBundle" />
+            <marker date="1484316277265" expanded="true" signature="1436:1514" ph="SELECT p FRO... UserBundle" />
+            <marker date="1484316277265" expanded="true" signature="1436:1527" ph="SELECT p FRO... UserBundle" />
+          </folding>
         </state>
       </provider>
     </entry>

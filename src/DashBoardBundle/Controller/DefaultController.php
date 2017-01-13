@@ -92,10 +92,11 @@ class DefaultController extends Controller
                     $this->getUser()->setNourriture($data->getNourriture());
                 }
                 if ($data->getProfilePictureFile()) {
-                    $this->getUser()->setProfilPic($this->get('app.profil_uploader')->upload($data->getProfilePictureFile()));
+                    $this->getUser()->setProfilPic($this->get('app.profil_uploader')->upload($data->getProfilePictureFile(), $this->getUser()));
                 }
                 $em->persist($this->getUser());
                 $em->flush();
+                return $this->redirect($this->generateUrl("dash_board_homepage"));
             }
         }
         return $this->render("DashBoardBundle::update.html.twig", $param);

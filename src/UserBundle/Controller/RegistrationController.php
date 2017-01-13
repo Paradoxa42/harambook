@@ -59,7 +59,7 @@ class RegistrationController extends BaseController
                 $dispatcher->dispatch(FOSUserEvents::REGISTRATION_SUCCESS, $event);
                 if ($user->getProfilePictureFile() != null) {
                     $file = $user->getProfilePictureFile();
-                    $user->setProfilPic($this->get('app.profil_uploader')->upload($file));
+                    $user->setProfilPic($this->get('app.profil_uploader')->upload($file,$user));
                 }
                 else
                     $user->setProfilPic("insert-picture-here.jpg");

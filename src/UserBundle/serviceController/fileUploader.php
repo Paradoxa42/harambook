@@ -9,6 +9,7 @@
 namespace UserBundle\serviceController;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
+use UserBundle\Entity\User;
 
 class fileUploader
 {
@@ -19,10 +20,16 @@ class fileUploader
         $this->targetDir = $targetDir;
     }
 
-    public function upload(UploadedFile $file)
+    /**
+     * @param UploadedFile $file
+     * @param User $user
+     * @return string
+     */
+    public function upload(UploadedFile $file, User $user)
     {
         $fileName = md5(uniqid()).'.'.$file->guessExtension();
         $file->move($this->targetDir, $fileName);
+        $user->setProfilePictureFile($file);
         return $fileName;
     }
 }
