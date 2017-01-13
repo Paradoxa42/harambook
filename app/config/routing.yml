@@ -1,0 +1,14 @@
+dash_board:
+    resource: "@DashBoardBundle/Resources/config/routing.yml"
+    prefix:   /dashboard
+
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+    prefix:   /user
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

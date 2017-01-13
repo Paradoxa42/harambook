@@ -1,0 +1,23 @@
+dash_board_homepage:
+    path:     /
+    defaults: { _controller: DashBoardBundle:Default:index }
+
+dash_board_searchFriend:
+    path: /search
+    defaults: { _controller: DashBoardBundle:Default:search }
+
+dash_board_add_friend:
+    path: /addfriend/{id}
+    defaults: { _controller: DashBoardBundle:Default:addFriend }
+    requirements:
+        id: \d*
+
+dash_board_delete_friend:
+    path: /deletefriend/{id}
+    defaults: { _controller: DashBoardBundle:Default:deleteFriend }
+    requirements:
+        id: \d*
+
+dash_board_maj_profile:
+    path: /editProfile
+    defaults: { _controller: DashBoardBundle:Default:update }

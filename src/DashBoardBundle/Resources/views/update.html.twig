@@ -1,0 +1,9 @@
+{% extends "DashBoardBundle::base.html.twig" %}
+{% block title %}
+    UpdateProfile
+{% endblock %}
+{% block body %}
+    {{ form_start(form_update) }}
+    {{ form_widget(form_update) }}
+    {{ form_end(form_update) }}
+{% endblock %}

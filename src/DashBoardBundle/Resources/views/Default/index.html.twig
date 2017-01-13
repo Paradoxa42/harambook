@@ -1,0 +1,40 @@
+{% extends "@DashBoard/base.html.twig" %}
+{% block title %}
+    Profil
+{% endblock %}
+{% block body %}
+    <div class="row-fluid" style="width: 100%">
+        <div style="float: left; width: 50%;">
+            <img src="{{ asset("uploads/user/profilpics/" ~ app.user.profilPic) }}" class="img-responsive">
+        </div>
+        <div style="float: right; width: 50%">
+            <h1>{{ app.user.name }}</h1>
+            <h2>age : {{ app.user.age }} ans</h2>
+            <h2>Famille : {{ app.user.famille }}</h2>
+            <h2>Race : {{ app.user.race }}</h2>
+            <h2>Nourriture : {{ app.user.nourriture }}</h2>
+        </div>
+    </div>
+    <div class="row_fluide">
+        <div class="panel-group">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1">Amis</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <ul class="list-group">
+                        {% for friend in app.user.friends %}
+                            <li class="list-group-item"><img src="{{ asset('uploads/user/profilpics/' ~ friend.profilPic) }}" class="img-circle" width="20" height="20"> Nom : {{ friend.name }} Age : {{ friend.age }} Famille : {{ friend.famille }} Race : {{ friend.race }}<a href="{{ path('dash_board_delete_friend', { 'id' : friend.id}) }}">Supprimer cet ami</a></li>
+                        {% endfor %}
+                    </ul>
+                    <div class="panel-footer">
+                        <a href="{{ path("dash_board_searchFriend") }}">Rechercher des amis</a>
+                        <p>cliquez sur les noms des Bonobos pour voir leurs profils</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "DashBoardBundle::base.html.twig" %}
+{% block title %}
+    Recherche d'amis
+{% endblock %}
+{% block body %}
+    {{ form_start(form_search) }}
+    {{ form_widget(form_search) }}
+    {{ form_end(form_search) }}
+    {% if friendsSame is defined %}
+        <h2>Cliquez sur le nom d'un Bonobo pour l'ajouter dans les amis</h2>
+        <div class="panel-group">
+            <div class="panel panel-success">
+                <div class="panel-heading">Résultats de même famille et de même race</div>
+                <div class="panel-body">
+                        {% for friend in friendsSame %}
+                                <li class="list-group-item"><img src="{{ asset('uploads/user/profilpics/' ~ friend.profilPic) }}" class="img-circle" width="20" height="20"> Nom : <a href="{{ path('dash_board_add_friend', { 'id': friend.id }) }}">{{ friend.name }}</a> Age : {{ friend.age }} Famille : {{ friend.famille }} Race : {{ friend.race }}</li>
+                            {% endfor %}
+                </div>
+            </div>
+
+            <div class="panel panel-info">
+                <div class="panel-heading">Résultats de la même famille</div>
+                            {% for friend in friendsSameFamily %}
+                                <li class="list-group-item"><img src="{{ asset('uploads/user/profilpics/' ~ friend.profilPic) }}" class="img-circle" width="20" height="20"> Nom : <a href="{{ path('dash_board_add_friend', { 'id': friend.id }) }}">{{ friend.name }}</a> Age : {{ friend.age }} Famille : {{ friend.famille }} Race : {{ friend.race }}</li>
+                                {% endfor %}
+            </div>
+
+            <div class="panel panel-warning">
+                <div class="panel-heading">Résultats de même race</div>
+                                {% for friend in friendsSameRace %}
+                                    <li class="list-group-item"><img src="{{ asset('uploads/user/profilpics/' ~ friend.profilPic) }}" class="img-circle" width="20" height="20"> Nom : <a href="{{ path('dash_board_add_friend', { 'id': friend.id }) }}">{{ friend.name }}</a> Age : {{ friend.age }} Famille : {{ friend.famille }} Race : {{ friend.race }}</li>
+                                    {% endfor %}
+            </div>
+
+            <div class="panel panel-danger">
+                <div class="panel-heading">Résultats autres</div>
+                                    {% for friend in friendDifferents %}
+                                        <li class="list-group-item"><img src="{{ asset('uploads/user/profilpics/' ~ friend.profilPic) }}" class="img-circle" width="20" height="20"> Nom :<a href="{{ path('dash_board_add_friend', { 'id': friend.id }) }}">{{ friend.name }}</a> Age : {{ friend.age }} Famille : {{ friend.famille }} Race : {{ friend.race }} </li>
+                                        {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
